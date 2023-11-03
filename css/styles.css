@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    object-fit: contain;
+}
+
+.fondo {
+    background-color: rgba(171, 172, 230, 0.644);
+}
+.solo-index {
+    position: absolute;
+}
+.header {
+    background-color: rgba(142, 133, 196, 0.836);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header img {
+    width: 60px;
+    padding: 5px;
+}
+.header__logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header__title {
+    color: rgb(230, 13, 42);
+    font-size: 3.5rem;
+    font-family: "Pacifico", sans-serif;
+}
+
+.hero {
+    background-image: url(../img/people-traveling.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero__text {
+    border-radius: 20px;
+    margin-top: 60px;
+    padding: 10px;
+    background-color: rgba(144, 133, 196, 0.548);
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+    color: rgb(7, 1, 1);
+    font-size: 1.2rem;
+}
+
+.destinos {
+    grid-area: destinos;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 20px;
+    margin-top: 15px;
+}
+.destinos__title {
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+    color: rgb(7, 1, 1);
+    font-size: 1.8rem;
+}
+.destinos__paises {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.destinos__tarjeta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(7, 1, 1);
+    font-family: "Merriweather", sans-serif;
+    padding: 20px;
+}
+.destinos__tarjeta img {
+    width: 100px;
+}
+.destinos__tarjeta h3 {
+    font-size: 1.2rem;
+}
